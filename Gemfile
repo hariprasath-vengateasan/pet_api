@@ -51,6 +51,11 @@ group :development, :test do
   gem "standardrb", "~> 1.0"
   gem "letter_opener"
   gem "letter_opener_web"
+  gem "factory_bot_rails"
+  gem "shoulda-matchers"
+  gem "sqlite3", "~> 2.7"
 end
 
 gem "redis", "~> 5.4"
+
+gem "standard", "~> 1.35"
