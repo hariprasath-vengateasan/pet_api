@@ -58,4 +58,4 @@ end
 
 gem "redis", "~> 5.4"
 
-gem "standard", "~> 1.35"
+gem "standard", "~> 1.50"
