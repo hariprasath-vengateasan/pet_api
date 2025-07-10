@@ -52,3 +52,5 @@ group :development, :test do
   gem "letter_opener"
   gem "letter_opener_web"
 end
+
+gem "redis", "~> 5.4"
