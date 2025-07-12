@@ -12,6 +12,13 @@ A simple Ruby on Rails API for managing pets, with Sidekiq background jobs and a
 
 From project root, run:
 
+* Add master.key in `config` directory
+
+```bash
+touch config/master.key
+echo "ab37c6580c52519a1efe3fecf9f9f53c" > config/master.key
+```
+
 ```bash
 docker-compose up --build
 ```
